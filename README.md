@@ -1,31 +1,31 @@
-# Evaluaci髇 T2 - Desarrollo de Servicios Web I (API)
+# Evaluaci贸n T2 - Desarrollo de Servicios Web I (API)
 
 ## Autor
 **Nombre:** Jamir Ascencio Flores
 **Curso:** Desarrollo de Servicios Web I
 
-## Descripci髇
+## Descripci贸n
 API RESTful desarrollada con .NET 8.0 implementando **Arquitectura Hexagonal**.
-Gestiona el sistema de biblioteca (Libros y Pr閟tamos) con reglas de negocio para el control de stock.
+Gestiona el sistema de biblioteca (Libros y Pr茅stamos) con reglas de negocio para el control de stock.
 
-## Tecnolog韆s
+## Tecnolog铆as
 * .NET 8.0 (Web API)
 * Entity Framework Core (MySQL)
 * AutoMapper
 * Pattern Repository & Unit of Work
 * DotNetEnv (Variables de entorno)
 
-## Instrucciones de Ejecuci髇
+## Instrucciones de Ejecuci贸n
 
 1. **Clonar el repositorio**:
    ```
-   git clone <https://github.com/jamirascencioflores/DSW1_T2_ASCENCIO_FLORES_JAMIR_API.git>
+   git clone https://github.com/jamirascencioflores/DSW1_T2_ASCENCIO_FLORES_JAMIR_API.git
    ```
 ---
 
-2. **Configurar Base de Datos**: Crear un archivo .env en la ra韟 del proyecto Library.Api con sus credenciales de MySQL:
+2. **Configurar Base de Datos**: Crear un archivo .env en la ra铆z del proyecto Library.Api con sus credenciales de MySQL:
 ```
-ConnectionStrings__DefaultConnection="Server=localhost;Database=library_db;User=root;Password=SU_CONTRASE袮;"
+ConnectionStrings__DefaultConnection="Server=localhost;Database=library_db;User=root;Password=SU_CONTRASE脩A;"
 ```
 ---
 
@@ -35,5 +35,5 @@ Update-Database -StartupProject Library.Api
 ```
 ---
 
-4. **Ejecutar la API**: Abrir la soluci髇 en Visual Studio y ejecutar el proyecto `Library.Api.`
+4. **Ejecutar la API**: Abrir la soluci贸n en Visual Studio y ejecutar el proyecto `Library.Api.`
  * Swagger UI: `https://localhost:<PUERTO>/swagger`
